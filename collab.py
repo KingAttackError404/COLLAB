@@ -33,7 +33,7 @@ def run():
          try: 
              s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
              s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((orgip,port)) 
+             s.connect((ip,port)) 
              s.send(data) 
              for x in range(times): 
                  s.send(data) 
