@@ -4,6 +4,7 @@ import codecs,sys
 import threading
 import random
 import time
+from colorama import Fore
 import os
 
 
@@ -27,8 +28,8 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
 
 
 while True:
-     print("[!] PCSI/RTC/PDSI COMMUNITY SIAP MENEMBUS IP ====> %s Dan Memberi Kopi Ke Port %s"%(orgip,port))
-     time.sleep(.7)
+     print(Fore.RED + "[!] PCSI/RTC/PDSI COMMUNITY SIAP MENEMBUS IP ====> %s Dan Memberi Kopi Ke Port %s"%(orgip,port))
+     time.sleep(.3)
             
 
 
