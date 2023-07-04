@@ -29,7 +29,7 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
 
 while True:
      print(Fore.RED + "[!] PCSI/RTC/PDSI COMMUNITY SIAP MENEMBUS IP ====> %s Dan Memberi Kopi Ke Port %s"%(orgip,port))
-     time.sleep(.3)
+     time.sleep(.1)
             
 
 
