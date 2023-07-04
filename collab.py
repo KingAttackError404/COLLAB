@@ -1,4 +1,4 @@
-sleimport socket
+import socket
 import struct
 import codecs,sys
 import threading
