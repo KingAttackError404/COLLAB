@@ -75,3 +75,7 @@ if __name__ == '__main__':
          print('Ataque para ip {} foi parado'.format(orgip))
          pass
            
+#© Edresson
+#modify : Pablo
+#dibantu : Pcsi/Rtc/Pdsi
+#Dont Abuse
