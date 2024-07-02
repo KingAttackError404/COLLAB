@@ -11,7 +11,7 @@ WAJIB
 pip install colorama
 
 
-1.git clone https://github.com/KingAttackError404/COLLAB
+1.git clone https://github.com/PabloTzy/COLLAB
 
 2.cd COLLAB
 
